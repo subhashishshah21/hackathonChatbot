@@ -1,0 +1,169 @@
+.main-container {
+  display: flex;
+  height: 90vh;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+
+  border-radius: 5px;
+}
+.person-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 10vw;
+  padding-top: 10px;
+}
+
+.person-info p small {
+  font-size: 12px;
+}
+.chatbox-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+}
+
+.chat-body {
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.icon-title {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.icon-title p {
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.icon-title img {
+  height: 20px;
+}
+
+.chat-names {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 10px;
+  flex-direction: column;
+  width: 25%;
+  background-color: #fff;
+}
+
+.chat-body {
+  height: 50vh;
+}
+
+.chat-names img {
+  height: 20px;
+  margin-right: 15px;
+  padding: 5px 5px;
+}
+
+.first {
+  display: flex;
+}
+
+.chat-names {
+  border-right: 1px solid rgb(185, 179, 179);
+}
+
+.chat-message {
+  background-color: #e6e6e6;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.send-message-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.send-message-container textarea {
+  padding: 5px 5px 5px;
+}
+.send-message-container img {
+  height: 30px;
+}
+.text-quotes {
+  color: white;
+  margin-bottom: 200px;
+}
+
+.actualmessage {
+  width: 80%;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.botmessage {
+  margin: 10px 10px 10px;
+  width: 50%;
+  background-color: #29c39d;
+  border-radius: 5px;
+  padding: 5px 15px 5px;
+  overflow: none;
+}
+.human-message {
+  margin: 10px 10px 10px;
+  width: 50%;
+  background-color: #29c39d;
+  border-radius: 5px;
+  padding: 5px 15px 5px;
+  margin-left: 70%;
+  overflow: none;
+}
+.icon-title p {
+  font-family: Arial;
+  font-size: 0.85rem;
+}
+.person-info p {
+  font-family: Arial;
+  font-size: 0.85rem;
+}
+.messenger {
+  display: flex;
+  background-color: #e6e6e6;
+}
+.online-check-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.online-check-items img,
+i {
+  height: 10px;
+  margin-bottom: 14px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.online-btns {
+  outline: none;
+  padding: 10px;
+  border: none;
+}
+.user-on {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 1px solid grey;
+}

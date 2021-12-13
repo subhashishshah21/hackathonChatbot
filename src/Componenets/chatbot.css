@@ -1,0 +1,15 @@
+.react-chatbot-kit-chat-container {
+  width: 70%;
+}
+.react-chatbot-kit-chat-bot-message {
+  margin-left: 0;
+}
+.react-chatbot-kit-chat-header {
+  justify-content: center;
+}
+.react-chatbot-kit-chat-bot-message {
+  font-size: 1rem;
+}
+.react-chatbot-kit-chat-input {
+  outline: none;
+}
