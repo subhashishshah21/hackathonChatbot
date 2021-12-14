@@ -1,6 +1,6 @@
 import { createChatBotMessage } from "react-chatbot-kit";
 
-const botName = "Primeval Bot";
+const botName = "Primeval Customer Care";
 
 const config = {
   initialMessages: [

@@ -51,7 +51,11 @@ export default function Login() {
     <>
       <div
         className="main-cont"
-        style={{ height: "100vh", backgroundImage: "url('/images/bg.png')" }}
+        style={{
+          height: "100vh",
+          backgroundImage: "url('/images/primevalhosp.png')",
+          backgroundPosition: "center",
+        }}
       >
         <div className="content">
           <div className="box">

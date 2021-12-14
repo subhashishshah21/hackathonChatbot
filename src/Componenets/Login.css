@@ -32,7 +32,7 @@ body a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #2bd1cb;
+  background-color: yellow;
 }
 .button button {
   margin: 10px;
